@@ -28,10 +28,11 @@
         </div>
     </header>
 
-    <section id="inicio" class="hero">
+    <section id="inicio" class="hero with-particles">
+        <div id="particles-hero" class="particles-js"></div>
         <div class="container">
             <div class="hero-content">
-                <div class="hero-text">
+                <div class="hero-text animate fade-in-up">
                     <h1>Maximiliano José Manzur Guzmán</h1>
                     <h2>Desarrollador Full-stack & Futuro Ingeniero Civil Industrial con Mención en Computación</h2>
                     <p>Especializado en desarrollo web, implementación de IA y ciencia de datos</p>
@@ -40,26 +41,30 @@
                         <a href="assets/files/CV-Maximiliano-Manzur.pdf" download class="btn secondary">Descargar CV</a>
                     </div>
                 </div>
-                <div class="hero-image">
+                <div class="hero-image animate zoom-in">
                     <div class="profile-placeholder">
-                        <i class="fas fa-user"></i>
-                        <p>Tu foto aquí</p>
+                        <!-- Quitar el ícono de usuario y reemplazarlo con la imagen -->
+                        <img src="assets/img/maquin1.jpg" alt="Maximiliano Manzur" class="profile-image">
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
         </div>
     </section>
 
     <section id="sobre-mi" class="about">
         <div class="container">
-            <h2 class="section-title">Sobre mí</h2>
-            <div class="about-content">
+            <h2 class="section-title animate fade-in-up">Sobre mí</h2>
+            <div class="about-content animate fade-in-up">
                 <p>Estudiante de Ingeniería Civil con especialización en Software y un Minor en Ciencia de Datos en la Pontificia Universidad Católica de Chile. Desarrollador Full-stack con experiencia en implementación de sistemas de gestión y aplicaciones web.</p>
                 <p>Destacado por mi pensamiento analítico, capacidad de resolución de problemas y habilidades de comunicación efectiva. Apasionado por la tecnología y el aprendizaje continuo.</p>
             </div>
             <div class="education">
-                <h3>Educación</h3>
-                <div class="education-item">
+                <h3 class="animate fade-in-up">Educación</h3>
+                <div class="education-item animate slide-in-left">
                     <h4>Pontificia Universidad Católica de Chile</h4>
                     <p class="date">2021 - Presente</p>
                     <ul>
@@ -72,15 +77,15 @@
                 </div>
             </div>
             <div class="languages">
-                <h3>Idiomas</h3>
-                <div class="language-item">
+                <h3 class="animate fade-in-up">Idiomas</h3>
+                <div class="language-item animate slide-in-right">
                     <span class="language">Español</span>
                     <div class="language-level">
                         <div class="level-bar native"></div>
                         <span>Nativo</span>
                     </div>
                 </div>
-                <div class="language-item">
+                <div class="language-item animate slide-in-right delay-1">
                     <span class="language">Inglés</span>
                     <div class="language-level">
                         <div class="level-bar b2"></div>
@@ -91,11 +96,12 @@
         </div>
     </section>
 
-    <section id="habilidades" class="skills">
+    <section id="habilidades" class="skills with-particles gradient-section">
+        <div id="particles-habilidades" class="particles-js"></div>
         <div class="container">
-            <h2 class="section-title">Habilidades Técnicas</h2>
+            <h2 class="section-title animate fade-in-up">Habilidades Técnicas</h2>
             <div class="skills-container">
-                <div class="skills-category">
+                <div class="skills-category animate zoom-in">
                     <h3>Alto dominio</h3>
                     <div class="skill-items">
                         <div class="skill-item">
@@ -124,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skills-category">
+                <div class="skills-category animate zoom-in delay-2">
                     <h3>Dominio moderado</h3>
                     <div class="skill-items">
                         <div class="skill-item">
@@ -141,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skills-category">
+                <div class="skills-category animate zoom-in delay-3">
                     <h3>Áreas de especialización</h3>
                     <ul>
                         <li>Desarrollo de aplicaciones web full-stack</li>
@@ -155,8 +161,8 @@
 
     <section id="experiencia" class="experience">
         <div class="container">
-            <h2 class="section-title">Experiencia Profesional</h2>
-            <div class="experience-item">
+            <h2 class="section-title animate fade-in-up">Experiencia Profesional</h2>
+            <div class="experience-item animate slide-in-left">
                 <div class="experience-header">
                     <h3>GreenLogistics</h3>
                     <span class="job-title">Desarrollador Full-stack</span>
@@ -171,11 +177,11 @@
         </div>
     </section>
 
-    <section id="proyectos" class="projects">
+    <section id="proyectos" class="projects gradient-section">
         <div class="container">
-            <h2 class="section-title">Proyectos Destacados</h2>
+            <h2 class="section-title animate fade-in-up">Proyectos Destacados</h2>
             <div class="projects-grid">
-                <div class="project-card">
+                <div class="project-card animate zoom-in">
                     <div class="project-image">
                         <img src="assets/img/vuelve_conmigo.png" alt="VuelveConmigo" onerror="this.src='assets/img/project-placeholder.jpg'">
                     </div>
@@ -193,7 +199,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card animate zoom-in delay-2">
                     <div class="project-image">
                         <img src="assets/img/quant_image.jpeg" alt="Proyecto Quant" onerror="this.src='assets/img/project-placeholder.jpg'">
                     </div>
@@ -216,23 +222,23 @@
 
     <section id="logros" class="achievements">
         <div class="container">
-            <h2 class="section-title">Logros y Actividades</h2>
+            <h2 class="section-title animate fade-in-up">Logros y Actividades</h2>
             <div class="achievements-container">
-                <div class="achievement-category">
+                <div class="achievement-category animate slide-in-left">
                     <h3>Logros Académicos</h3>
                     <ul>
                         <li>Tercer lugar en Feria de Ingeniería UC, curso Desafíos de Ingeniería</li>
                         <li>Puntaje Nacional en Matemáticas (2021)</li>
                     </ul>
                 </div>
-                <div class="achievement-category">
+                <div class="achievement-category animate slide-in-right">
                     <h3>Actividades Extracurriculares</h3>
                     <div class="extracurricular-group">
                         <h4>Deportes</h4>
                         <ul>
                             <li>Seleccionado de Volleyball, Colegio Manquehue (6 años)</li>
-                            <li>Práctica activa de tenis y padel</li>
-                            <li>Entrenamiento regular en gimnasio</li>
+                            <li>Práctica activa de tenis y levantamiento de pesas</li>
+                            <li>Profesor particular de matemáticas, física, biología y cáclulo</li>
                         </ul>
                     </div>
                     <div class="extracurricular-group">
@@ -242,27 +248,24 @@
                         </ul>
                     </div>
                 </div>
-                <div class="achievement-category">
+                <div class="achievement-category animate slide-in-left delay-2">
                     <h3>Competencias Personales</h3>
                     <ul>
-                        <li>Excelentes habilidades de comunicación efectiva</li>
-                        <li>Capacidad comprobada de trabajo en equipo</li>
-                        <li>Habilidad para transmitir conceptos técnicos de manera clara</li>
-                        <li>Pensamiento analítico y resolución creativa de problemas</li>
                         <li>Adaptabilidad y aprendizaje rápido</li>
                         <li>Experiencia en liderazgo deportivo</li>
-                        <li>Gestión eficiente de proyectos y plazos</li>
+                        <li>Comunicación efectiva en equipo</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contacto" class="contact">
+    <section id="contacto" class="contact with-particles">
+        <div id="particles-contacto" class="particles-js"></div>
         <div class="container">
-            <h2 class="section-title">Contacto</h2>
+            <h2 class="section-title animate fade-in-up">Contacto</h2>
             <div class="contact-container">
-                <div class="contact-info">
+                <div class="contact-info animate slide-in-left">
                     <p>¿Interesado en trabajar juntos? ¡Contáctame!</p>
                     <div class="contact-methods">
                         <div class="contact-method">
@@ -279,7 +282,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contact-form">
+                <form class="contact-form animate slide-in-right" id="contact-form">
                     <div class="form-group">
                         <label for="name">Nombre</label>
                         <input type="text" id="name" name="name" required>
@@ -311,6 +314,256 @@
         </div>
     </footer>
 
+    <!-- Particles.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Main JavaScript -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Particles Config Script -->
+    <script>
+      // Configuración de partículas
+      document.addEventListener('DOMContentLoaded', function() {
+        // Solo cargar si particlesJS está disponible
+        if (window.particlesJS) {
+          // Configuración para la sección hero
+          particlesJS('particles-hero', {
+            "particles": {
+              "number": {
+                "value": 30,
+                "density": {
+                  "enable": true,
+                  "value_area": 800
+                }
+              },
+              "color": {
+                "value": "#1a4b91"
+              },
+              "shape": {
+                "type": "circle",
+                "stroke": {
+                  "width": 0,
+                  "color": "#000000"
+                }
+              },
+              "opacity": {
+                "value": 0.15,
+                "random": false,
+                "anim": {
+                  "enable": false
+                }
+              },
+              "size": {
+                "value": 5,
+                "random": true,
+                "anim": {
+                  "enable": false
+                }
+              },
+              "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#1a4b91",
+                "opacity": 0.1,
+                "width": 1
+              },
+              "move": {
+                "enable": true,
+                "speed": 2,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false
+              }
+            },
+            "interactivity": {
+              "detect_on": "canvas",
+              "events": {
+                "onhover": {
+                  "enable": true,
+                  "mode": "grab"
+                },
+                "onclick": {
+                  "enable": true,
+                  "mode": "push"
+                },
+                "resize": true
+              },
+              "modes": {
+                "grab": {
+                  "distance": 140,
+                  "line_linked": {
+                    "opacity": 0.3
+                  }
+                },
+                "push": {
+                  "particles_nb": 3
+                }
+              }
+            },
+            "retina_detect": true
+          });
+          
+          // Configuración para la sección habilidades
+          particlesJS('particles-habilidades', {
+            "particles": {
+              "number": {
+                "value": 40,
+                "density": {
+                  "enable": true,
+                  "value_area": 800
+                }
+              },
+              "color": {
+                "value": "#2c6fc7"
+              },
+              "shape": {
+                "type": "circle",
+                "stroke": {
+                  "width": 0,
+                  "color": "#000000"
+                }
+              },
+              "opacity": {
+                "value": 0.1,
+                "random": false,
+                "anim": {
+                  "enable": false
+                }
+              },
+              "size": {
+                "value": 5,
+                "random": true,
+                "anim": {
+                  "enable": false
+                }
+              },
+              "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#2c6fc7",
+                "opacity": 0.1,
+                "width": 1
+              },
+              "move": {
+                "enable": true,
+                "speed": 1.5,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false
+              }
+            },
+            "interactivity": {
+              "detect_on": "canvas",
+              "events": {
+                "onhover": {
+                  "enable": true,
+                  "mode": "grab"
+                },
+                "onclick": {
+                  "enable": true,
+                  "mode": "push"
+                },
+                "resize": true
+              },
+              "modes": {
+                "grab": {
+                  "distance": 140,
+                  "line_linked": {
+                    "opacity": 0.3
+                  }
+                },
+                "push": {
+                  "particles_nb": 3
+                }
+              }
+            },
+            "retina_detect": true
+          });
+          
+          // Configuración para la sección contacto
+          particlesJS('particles-contacto', {
+            "particles": {
+              "number": {
+                "value": 50,
+                "density": {
+                  "enable": true,
+                  "value_area": 800
+                }
+              },
+              "color": {
+                "value": "#1a4b91"
+              },
+              "shape": {
+                "type": "circle",
+                "stroke": {
+                  "width": 0,
+                  "color": "#000000"
+                }
+              },
+              "opacity": {
+                "value": 0.12,
+                "random": false,
+                "anim": {
+                  "enable": false
+                }
+              },
+              "size": {
+                "value": 4,
+                "random": true,
+                "anim": {
+                  "enable": false
+                }
+              },
+              "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#1a4b91",
+                "opacity": 0.1,
+                "width": 1
+              },
+              "move": {
+                "enable": true,
+                "speed": 1,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false
+              }
+            },
+            "interactivity": {
+              "detect_on": "canvas",
+              "events": {
+                "onhover": {
+                  "enable": true,
+                  "mode": "grab"
+                },
+                "onclick": {
+                  "enable": true,
+                  "mode": "push"
+                },
+                "resize": true
+              },
+              "modes": {
+                "grab": {
+                  "distance": 140,
+                  "line_linked": {
+                    "opacity": 0.3
+                  }
+                },
+                "push": {
+                  "particles_nb": 3
+                }
+              }
+            },
+            "retina_detect": true
+          });
+        }
+      });
+    </script>
 </body>
 </html>
